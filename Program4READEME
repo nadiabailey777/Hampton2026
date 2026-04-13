@@ -1,0 +1,11 @@
+CSC 252 - Programming 4 - Trees by LaNadia Bailey
+Gen AI was used to make debug and understand uknown concepts.
+
+This project implements factors like hashing, collision handeling, and resizing.
+
+Java Files:
+HashMap.java - Implements hash table system. Uses put, get, remove, and handles collisions.
+Node.java - Stores a key and value. Chains collsions in linked list.
+HashingMetrics - Tracks performance stats by counting collisions, counting resizes, and measures execution time.
+HashDataGenerator - Creates test data.
+HashingMain - driver that creates dataset usuing DataGenerator, runs HashMap operations, tracks performance with HashingMetrics. 
